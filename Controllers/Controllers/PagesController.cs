@@ -22,5 +22,10 @@ namespace Controllers.Controllers
         {
             return View();
         }
+
+        public IActionResult NotAssigned()
+        {
+            return View();
+        }
     }
 }
