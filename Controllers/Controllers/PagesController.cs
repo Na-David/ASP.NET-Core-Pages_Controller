@@ -18,12 +18,22 @@ namespace Controllers.Controllers
             return View();
         }
 
+        public IActionResult Welcome()
+        {
+            return View();
+        }
+
         public IActionResult NotFound()
         {
             return View();
         }
 
         public IActionResult NotAssigned()
+        {
+            return View();
+        }
+
+        public IActionResult Intro()
         {
             return View();
         }
